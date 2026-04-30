@@ -20,9 +20,9 @@ export const HeroSection = () => {
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            From data to intelligence.
-            I’m a Data Scientist specializing in ML and AI, building systems that learn, adapt, and create measurable impact.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+            From data to intelligent systems.
+            I build AI applications using LLMs, RAG, and real-time pipelines that turn ideas into working products.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
