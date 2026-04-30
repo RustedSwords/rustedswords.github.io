@@ -3,6 +3,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Coding Buddy Rocky",
+    description: "An AI-powered multi-agent system that transforms natural language project descriptions into fully functional code.",
+    image: "/projects/rocky.png",
+    tags: ["AI Engineering", "LangGraph", "Multi-Agent", "LLM"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/RustedSwords/coding-buddy-rocky",
+  },
+  {
+    id: 2,
     title: "Chess Engine",
     description: "A deep learning-powered chess engine that uses neural network model to predict the best moves in chess games.",
     image: "/projects/chess_game.gif",
