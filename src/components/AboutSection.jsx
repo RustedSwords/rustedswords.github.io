@@ -1,5 +1,5 @@
 import profileImg from "@/assets/profile.png";
-import { Bot, Astroid, Database } from "lucide-react";
+import { Bot, BrainCircuit, Database } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -78,7 +78,7 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Astroid className="h-6 w-6 text-primary" />
+                  <BrainCircuit className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">AI Systems</h4>
