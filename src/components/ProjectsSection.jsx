@@ -6,7 +6,7 @@ const projects = [
     title: "Coding Buddy Rocky",
     description: "An AI-powered multi-agent system that transforms natural language project descriptions into fully functional code.",
     image: "/projects/rocky.png",
-    tags: ["AI Engineering", "LangGraph", "Multi-Agent", "LLM"],
+    tags: ["LangGraph", "Multi-Agent", "LLM"],
     demoUrl: "#",
     githubUrl: "https://github.com/RustedSwords/coding-buddy-rocky",
   },
