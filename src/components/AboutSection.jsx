@@ -1,5 +1,5 @@
 import profileImg from "@/assets/profile.png";
-import { Languages, BrainCircuit, Database } from "lucide-react";
+import { Bot, Astroid, Database } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -42,23 +42,21 @@ export const AboutSection = () => {
           {/* Left column */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Data Scientist with a Focus on Machine Learning & AI
+              AI Engineer focused on LLM Systems, RAG, and Applied AI
             </h3>
 
-            <p className="text-muted-foreground">
-              I’m a Data Scientist specializing in machine learning and AI. I work across the full ML lifecycle. From data
-              exploration and feature engineering to model development, evaluation, and
-              deployment with an emphasis on robustness, interpretability, and real-world
-              impact.
-            </p>
+              <p className="text-muted-foreground">
+              I’m an AI Engineer focused on building end-to-end intelligent systems using large language models, 
+              retrieval-augmented generation (RAG), and modern backend architectures. I design and develop applications 
+              that integrate LLMs into real-world workflows, with a focus on usability, performance, and reliability.
+              </p>
 
-            <p className="text-muted-foreground">
-              My work also includes large language models (LLMs), where I focus on prompt
-              engineering, fine-tuning, evaluation, and integrating LLMs into end-to-end AI
-              applications. I’m particularly interested in combining LLMs with traditional
-              machine learning approaches to build practical, scalable, and reliable AI
-              systems.
-            </p>
+              <p className="text-muted-foreground">
+              My work includes building RAG pipelines, AI agents, and real-time AI systems, covering everything from data 
+              ingestion and embedding generation to API development and deployment. I am particularly interested in creating 
+              scalable AI products that combine strong engineering practices with practical machine learning to deliver 
+              measurable impact.
+              </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
@@ -76,49 +74,49 @@ export const AboutSection = () => {
 
           {/* Right column (cards – unchanged) */}
           <div className="grid grid-cols-1 gap-6">
-            {/* Machine Learning */}
+            {/* AI Systems */}
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <BrainCircuit className="h-6 w-6 text-primary" />
+                  <Astroid className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Machine Learning</h4>
+                  <h4 className="font-semibold text-lg">AI Systems</h4>
                   <p className="text-muted-foreground">
-                    Building, training and evaluating predictive models using supervised 
-                    and unsupervised learning techniques for real-world applications.
+                    Designing and building end-to-end AI applications using LLMs, 
+                    APIs, and modern backend architectures.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Data Science */}
+            {/* RAG & Retrieval */}
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Database className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Data Science</h4>
+                  <h4 className="font-semibold text-lg">RAG & Retrieval</h4>
                   <p className="text-muted-foreground">
-                    Extracting insights from data through exploration, statistical 
-                    analysis, and feature engineering to drive informed decisions.
+                    Building retrieval-augmented systems with document processing, embeddings, 
+                    and vector databases for accurate and scalable AI solutions.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* LLM Systems */}
+            {/* AI Agents */}
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Languages className="h-6 w-6 text-primary" />
+                  <Bot className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">LLM Systems</h4>
+                  <h4 className="font-semibold text-lg">AI Agents</h4>
                   <p className="text-muted-foreground">
-                    Working with large language models for prompt engineering, fine-tuning, 
-                    evaluation, and building LLM-powered applications.
+                    Developing agent-based systems that automate workflows, handle structured tasks, 
+                    and integrate with external tools and services.
                   </p>
                 </div>
               </div>
