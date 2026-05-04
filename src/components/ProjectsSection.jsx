@@ -7,7 +7,7 @@ const projects = [
     description: "An AI-powered multi-agent system that transforms natural language project descriptions into fully functional code.",
     image: "/projects/rocky.png",
     tags: ["LangGraph", "Multi-Agent", "LLM"],
-    demoUrl: "#",
+    // demoUrl removed
     githubUrl: "https://github.com/RustedSwords/coding-buddy-rocky",
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     description: "A deep learning-powered chess engine that uses neural network model to predict the best moves in chess games.",
     image: "/projects/chess_game.gif",
     tags: ["Deep Learning", "PyTorch", "Python"],
-    demoUrl: "#",
+    // demoUrl removed
     githubUrl: "https://github.com/RustedSwords/chessengine",
   },
     {
@@ -25,7 +25,7 @@ const projects = [
     description: "A Python-based Retrieval-Augmented Generation (RAG) application built with Ollama and Qdrant.",
     image: "/projects/rag.png",
     tags: ["RAG", "Ollama", "Qdrant", "LLM"],
-    demoUrl: "#",
+    // demoUrl removed
     githubUrl: "https://github.com/RustedSwords/RAG-OnePieceWiki",
     },
     {
@@ -34,7 +34,7 @@ const projects = [
     description: "A reinforcement learning project implementing a DQN agent that learns to play Atari Breakout.",
     image: "/projects/breakout.gif",
     tags: ["Python", "RL", "DQN", "PyTorch"],
-    demoUrl: "#",
+    // demoUrl removed
     githubUrl: "https://github.com/RustedSwords/Atari-Breakout",
     },
     {
@@ -43,7 +43,7 @@ const projects = [
     description: "A real-time voice assistant that schedules meetings, confirms details, and creates calendar events using speech recognition and generation.",
     image: "/projects/voice_agent.png", 
     tags: ["Python", "VAPI", "Google Calendar API"],
-    demoUrl: "https://vapi.ai/?demo=true&shareKey=0b7b5d62-d2f9-4cb3-bfd1-9a063e93378b&assistantId=310bcb8b-08c6-4c4a-afe5-453ccf6895e6",
+    // demoUrl removed
     githubUrl: "https://github.com/RustedSwords/voice-agent-Ryan",
 }
 ];
@@ -90,13 +90,7 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
+                    {/* Demo link removed */}
                     <a
                       href={project.githubUrl}
                       target="_blank"
