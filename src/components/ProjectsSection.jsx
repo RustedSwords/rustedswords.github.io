@@ -94,9 +94,10 @@ export const ProjectsSection = () => {
                     <a
                       href={project.githubUrl}
                       target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300 flex items-center gap-2"
                     >
                       <Github size={20} />
+                      <span className="ml-1 text-xs">Check it out on GitHub</span>
                     </a>
                   </div>
                 </div>
